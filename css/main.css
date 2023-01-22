@@ -1,0 +1,28 @@
+:root {
+  --dark:#19283f;
+}
+body {
+ font-family: 'Cairo', sans-serif;
+}
+
+
+@media (max-width: 700px) {
+  .nav-link {
+    padding: 0.5rem;
+    margin-right: 2rem;
+   
+  }
+  .navbar-toggler {
+    margin-left: 5px;
+}
+ .position-absolute{
+   font-weight: 700;
+   
+ }
+   .about-img{
+     margin-left: 20px;
+     right: 100px;
+     top: 30px;
+    width: 200px;
+    }
+ }
